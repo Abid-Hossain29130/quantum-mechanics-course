@@ -33,5 +33,3 @@ Feel free to explore or use any of the material for your own learning. Please fo
 
 © 2025 Abid Hossain  
 For questions or collaboration, open an issue or contact me via GitHub.
-
-![image1](image1)
