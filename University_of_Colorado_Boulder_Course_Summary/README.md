@@ -4,7 +4,9 @@
 
 ** Key concepts learned :
 1.Wavefunctions and probability
+
 2.Schrödinger equation
+
 3.Infinite square well
 
 #And today I got approved for financial aid. (date: 5/2/2025} [2nd, March 2025]
