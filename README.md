@@ -1,3 +1,4 @@
+# Quantum Mechanics Self-Study & Scholarship Portfolio
 # My personal Learning journal 
 # Quantum mechanics Learning journal.
 # Quantum computing Learning Journal.
@@ -10,6 +11,9 @@ Welcome! This repository is my personal learning journal as I self-study quantum
 All materials are organized week by week, reflecting my real-time progress. Each week’s folder contains handwritten notes (as images), study reflections, and any code or computational experiments I complete.
 
 ---
+**Author:** Abid Hossain  
+**Goal:** To build advanced quantum mechanics and computational skills, targeting scholarships in Europe (especially DAAD) for MSc/PhD studies.
+This repository serves as my academic learning journal, code/project archive, and skills portfolio. It documents my self-study progress in quantum mechanics, programming (Python, Qiskit), and related fields.
 
 ## 📂 Repository Structure
 
@@ -34,8 +38,11 @@ This repository documents my journey in learning quantum mechanics and quantum c
 - Weekly notes, summaries, and solutions to problems
 - Handwritten explanations and visual reasoning
 - Code experiments and computational work (when present)
-
 ---
+## Motivation & Scholarship Goals
+
+I am passionate about contributing to quantum research and technology in Europe. My goal is to join a leading MSc or PhD program (such as those supported by DAAD) and collaborate internationally.  
+This repo demonstrates my academic consistency, coding skills, and motivation—qualities I will bring to any university.
 
 ## 📜 Licensing
 
