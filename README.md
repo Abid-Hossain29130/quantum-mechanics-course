@@ -54,6 +54,15 @@ This repo demonstrates my academic consistency, coding skills, and motivation—
 > Please refer to each week’s folder for the type of content included.  
 > When reusing, follow the relevant license for the content type.
 
+## License
+
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![CC BY 4.0 license](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](LICENSE-CC-BY-4.0.md)
+
+- **Code** in this repository is licensed under the [MIT License](LICENSE).
+- **Notes, images, and documentation** are licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE-CC-BY-4.0.md).
+
+This ensures all content can be freely reused with proper attribution, in line with open science and academic sharing best practices.
 ---
 
 ## 🚀 How to Use or Contribute
