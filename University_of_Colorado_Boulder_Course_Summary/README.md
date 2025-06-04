@@ -1,4 +1,4 @@
-Stanford University: Quantum Mechanics for Scientists and Engineers
+#University of Colorado Boulder : Quantum Mechanics for Scientists and Engineers
 ✅ Watched 100% of course videos in audit mode .
 ✅ Waiting for financial aid approval to complete assignments
 
