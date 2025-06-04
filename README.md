@@ -1,7 +1,8 @@
 # Quantum Mechanics Self-Study & Scholarship Portfolio
 # My personal Learning journal 
 Quantum mechanics Learning journal.
-/Quantum computing Learning Journal.
+
+Quantum computing Learning Journal.
 
 quantum-mechanics-course
 My self-study notes, solutions, and projects for Quantum Mechanics.
