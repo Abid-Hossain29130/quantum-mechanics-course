@@ -64,7 +64,11 @@ This repo demonstrates my academic consistency, coding skills, and motivation—
 
 This ensures all content can be freely reused with proper attribution, in line with open science and academic sharing best practices.
 ---
-
+## 🔬 Future Research Directions  
+1. **Quantum Algorithms**: Implement Grover's search in Qiskit  
+2. **Publish**: Contribute to open-source quantum projects  
+3. **Scholarship Target**: DAAD MSc in Quantum Technologies (2026)
+   
 ## 🚀 How to Use or Contribute
 
 - You are welcome to use, copy, or adapt any code or notes, following the appropriate license.
