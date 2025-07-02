@@ -6,4 +6,4 @@ Week 2 : ✅ Week 2 Overview 🎯 Focus: Orientation Choosing primary learning r
 
 ---> Watched Lecture 2 Superposition of states Entanglement Mach–Zehnder interferometer Elitzur–Vaidman bomb test (Interaction-free measurements) [Refreshed memory]
 
----> Uploaded the Hand note's that were created during learning of the  -Quantum Physics I (Spring 2016).
+---> Uploaded the Hand note's that were created during learning of the  - MIT 8.04 Quantum Physics I (Spring 2016).
