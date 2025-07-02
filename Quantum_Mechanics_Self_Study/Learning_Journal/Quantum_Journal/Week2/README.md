@@ -2,7 +2,9 @@ Week 2 : ✅ Week 2 Overview 🎯 Focus: Orientation Choosing primary learning r
 
 ✅ Tasks Completed: Primary Course Selected :-
 
-🎓 MIT 8.04 – Quantum Physics I (Spring 2016) Instructor: Prof. Barton Zwiebach 🔗 MIT OCW Link : 
+🎓 MIT 8.04 – Quantum Physics I (Spring 2016) Instructor: Prof. Barton Zwiebach 
+
+🔗 MIT OCW Link : 
 
 https://ocw.mit.edu/courses/8-04-quantum-physics-i-spring-2016/pages/video-lectures/part-1/
 
