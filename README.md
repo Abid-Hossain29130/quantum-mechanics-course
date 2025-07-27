@@ -19,9 +19,9 @@ This repository serves as my academic learning journal, code/project archive, an
 
 ## 📂 Repository Structure
 
-- `Quantum_Mechanics_Self_Study/Learning_Journal/Week1/`
-- `Quantum_Mechanics_Self_Study/Learning_Journal/Week2/`
-- `Quantum_Mechanics_Self_Study/Learning_Journal/Week3/`
+- `Quantum_Mechanics_Self_Study/Learning_Journal/Week_01/`
+- `Quantum_Mechanics_Self_Study/Learning_Journal/Week_02/`
+- `Quantum_Mechanics_Self_Study/Learning_Journal/Week_03/`
 - etc.
 
 **Each weekly folder may include:**
