@@ -18,5 +18,5 @@ Chapter Three: Schrödinger's Wave Equation
  * Exercise (Few mathematical problems)
    
 # Problems and questions: 
-## Had a little problem at understanding the wave function first. Asked a couple of questions About this topic but with the help of Google and chat-gpt and other some research Platforms and finally I was able to Grasp a good understanding about the Schrödinger's Wave Function understand.
+## Had a little problem at understanding the wave function first. Asked a couple of questions About this topic but with the help of Google and chat-gpt and Some other research Platforms finally I was able to Grasp a good understanding about the Schrödinger's Wave Function understand.
 [Still have some question unanswered and looking forward the other physicist for the answer!]
