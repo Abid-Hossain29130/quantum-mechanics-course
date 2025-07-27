@@ -3,8 +3,8 @@ So after my exam in my university , About which I previously told in a notice my
 Then I continued my Journey of understanding the fundamental theories in quantum mechanics through my textbook I started my chapter 3.
 Today I completed my chapter 3 of ##Quantum mechanics my university textbook.
 
-                                                      ------------------> The book is written by Professor S.M.Moksed Ali.
-                                                      
+                                                     ------------------> The book is written by Professor S.M.Moksed Ali.
+                                                     
 So Chapter 3 has covered These specific topics here is the list :
 
 Chapter Three: Schrödinger's Wave Equation
