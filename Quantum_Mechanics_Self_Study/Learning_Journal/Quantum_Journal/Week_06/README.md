@@ -1,7 +1,6 @@
 # Week_06 — In-depth study & question resolution (June 2025)
 
-## Why this “gap”?
-Between Week_03 → Week_06, I spent three weeks thoroughly researching and resolving the core questions I had from Chapter 3 (Schrödinger Equation). During this time, I:
+I spent three weeks thoroughly researching and resolving the core questions I had from Chapter 3 (Schrödinger Equation). During this time, I:
 
 - Searched deeply across textbooks, lecture notes, and academic sources,
 - Gradually improved my understanding and answered each question in detail,
