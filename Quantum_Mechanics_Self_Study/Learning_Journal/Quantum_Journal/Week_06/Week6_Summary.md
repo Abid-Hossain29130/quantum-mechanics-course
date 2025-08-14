@@ -1,8 +1,9 @@
 ##Chapter 3 — Schrödinger Equation (Questions & Answers)
 
-*Week 3 → Week 4 learning journal — questions I asked while studying Chapter 3 and the answers I found.*
+*Week 4,5 → Week 6 learning journal — questions I asked while studying Chapter 3 and the answers I found.*
 
-**Short chapter summary (one paragraph)**
+**Short chapter summary (one paragraph)** :-
+
 This week we focused on the Schrödinger equation and the wave function $\psi$. We studied time-dependent and time-independent forms, probability interpretation (Born rule), basic properties of $\psi$ (normalization, continuity, single-valuedness), free-particle plane-wave solutions, the probability current, and Ehrenfest’s theorem linking quantum expectation values to classical quantities. ([MIT OpenCourseWare][1], [Wikipedia][2])
 
 ---
@@ -11,41 +12,43 @@ This week we focused on the Schrödinger equation and the wave function $\psi$. 
 
 ### 1. **What exactly *is* the Schrödinger equation? How is it analogous to Newton’s laws?**
 
-**Answer (concise):**
+**Answer:**
 The (time-dependent) Schrödinger equation (TDSE) is the fundamental dynamical equation of nonrelativistic quantum mechanics. For a single particle,
 
 $$
 \hat H\Psi(\mathbf r,t)=i\hbar\frac{\partial}{\partial t}\Psi(\mathbf r,t),
 $$
 
-where $\hat H$ is the Hamiltonian operator (e.g. $-\tfrac{\hbar^2}{2m}\nabla^2 + V(\mathbf r,t)$). It determines how the quantum state $\Psi$ evolves in time — analogous to Newton’s $F=ma$ which determines trajectories in classical mechanics. The TDSE is the quantum dynamical law; solutions encode all future probabilities for measurements. ([MIT OpenCourseWare][1])
+where 
+$\hat H$ is the Hamiltonian operator (e.g. $-\tfrac{\hbar^2}{2m}\nabla^2 + V(\mathbf r,t)$). 
+It determines how the quantum state $\Psi$ evolves in time — analogous to Newton’s $F=ma$ which determines trajectories in classical mechanics. The TDSE is the quantum dynamical law; solutions encode all future probabilities for measurements. ([MIT OpenCourseWare][1])
 
 ---
 
 ### 2. **What is the wave function $\psi$? What is its “physical significance”?**
 
-**Answer (concise):**
+**Answer:**
 $\psi(\mathbf r,t)$ is a complex amplitude whose squared modulus $|\psi(\mathbf r,t)|^2$ gives the probability density to find the particle at $\mathbf r$ at time $t$ (Born rule). The wave function itself is not directly observable; only probabilities and expectation values (constructed from $\psi$) correspond to measurable outcomes. The complex phase of $\psi$ carries information (interference, currents) that $|\psi|^2$ alone cannot. ([Wikipedia][2], [farside.ph.utexas.edu][3])
 
 ---
 
 ### 3. **Why didn’t Schrödinger’s original “smeared charge” idea work — why Born’s interpretation?**
 
-**Answer (concise):**
+**Answer:**
 Schrödinger initially explored interpreting $|\psi|^2$ as a physical charge (or mass) density. The problem: that interpretation couldn’t account for discrete detection events and quantized outcomes in experiments (e.g., photoelectric counts, detector clicks). Born proposed the probabilistic interpretation (probability amplitude $\psi$, probability density $|\psi|^2$), which matched experiments: measurements give single outcomes sampled from a distribution $|\psi|^2$. Thus Born’s rule resolved the mismatch with observed discrete measurement statistics. ([Wikipedia][2])
 
 ---
 
 ### 4. **If the particle is “smeared out” by $|\psi|^2$, what do we actually measure? How do we get a single result?**
 
-**Answer (concise):**
-In any single measurement, the apparatus records a definite value (e.g., a detector click at position $x_0$). Quantum mechanics predicts a probability distribution $|\psi(x)|^2$; repeated identical preparations produce a frequency distribution that approaches this probability. The transition from distribution to single result is the measurement postulate: measurement yields one eigenvalue with probability given by the Born rule. (Mechanisms of “collapse” are interpretational — decoherence explains appearance of collapse in many practical cases, but the Born rule is what you use for predictions.) ([Wikipedia][2])
+**Answer:**
+In any single measurement, the apparatus records a definite value (e.g., a detector click at position $x_0$). Quantum mechanics predicts a probability distribution $|\psi(x)|^2$; repeated identical preparations produce a frequency distribution that approaches this probability. The transition from distribution to single result is the measurement postulate: measurement yields one eigenvalue with probability given by the Born rule. (Mechanisms of “collapse” are interpretational  decoherence explains appearance of collapse in many practical cases, but the Born rule is what you use for predictions.) ([Wikipedia][2])
 
 ---
 
 ### 5. **Why call $\psi$ an “amplitude”? What is “probability amplitude”?**
 
-**Answer (concise):**
+**Answer:**
 “Amplitude” emphasizes that $\psi$ is a complex quantity whose modulus squared gives probability. The complex phase (argument of amplitude) produces interference effects; different amplitudes add (with phase) and give nontrivial $|\sum \psi|^2$. “Probability amplitude” is the precise term: $\psi$ is an amplitude whose squared modulus is a probability density. ([Wikipedia][2])
 
 ---
@@ -134,7 +137,9 @@ $$
 \mathbf j = -\frac{i\hbar}{2m}\left(\psi^* \nabla\psi - \psi\nabla\psi^*\right) = \frac{\hbar}{m}\operatorname{Im}(\psi^* \nabla\psi).
 $$
 
-It satisfies the continuity equation $\partial_t \rho + \nabla\cdot\mathbf j = 0$, expressing conservation of total probability. For 1D, $j = \dfrac{\hbar}{m}\operatorname{Im}(\psi^*\partial_x\psi)$. ([Wikipedia][7])
+It satisfies the continuity equation $\partial_t \rho + \nabla\cdot\mathbf j = 0$, expressing conservation of total probability. For 1D, 
+$j = \dfrac{\hbar}{m}\operatorname{Im}(\psi^*\partial_x\psi)$ 
+([Wikipedia][7])
 
 ---
 
@@ -174,23 +179,7 @@ $$
 ### 1. **Should I reproduce the long Gauss theorem proof in an exam?**
 
 **Answer (practical exam strategy):**
-No — in most exams you should **state** the vector identity or Gauss theorem step and show how you apply it (brief justification). Full derivations of standard vector identities are usually not required. Demonstrate you know which identity is used and how it simplifies the expression. If an examiner specifically asks for the proof, then provide it; otherwise write a short line: “using Gauss’ theorem / divergence theorem, we convert volume integral to surface integral …” and continue. This saves time and shows understanding. ([Wikipedia][7])
-
----
-
-## Specific student-requested items
-
-### — Provide the concise final expression for $d\langle x\rangle/dt$ and the immediate next lines (your stuck algebra)
-
-**Answer (copy-paste you can use in exam):**
-
-$$
-\frac{d}{dt}\langle x\rangle = \frac{d}{dt}\int \psi^* x \psi\,d\tau
-= \frac{1}{i\hbar}\langle [x,\hat H]\rangle
-= \frac{\langle p\rangle}{m}.
-$$
-
-(If you need the expanded intermediate algebra, ask and I will write the next two lines in the exact algebraic substitution form.)
+No — in most exams you should **state** the vector identity or Gauss theorem step and show how you apply it (brief justification). Full derivations of standard vector identities are usually not required. Demonstrate you know which identity is used and how it simplifies the expression. If an examiner specifically asks for the proof, then provide it; otherwise write a short line: “using Gauss’ theorem / divergence theorem, we convert volume integral to surface integral … and continue. This saves time and shows understanding. ([Wikipedia][7])
 
 ---
 
