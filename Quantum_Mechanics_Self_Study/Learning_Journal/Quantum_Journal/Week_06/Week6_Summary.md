@@ -4,7 +4,7 @@
 
 **Short chapter summary (one paragraph)** :-
 
-This week we focused on the Schrödinger equation and the wave function $\psi$. We studied time-dependent and time-independent forms, probability interpretation (Born rule), basic properties of $\psi$ (normalization, continuity, single-valuedness), free-particle plane-wave solutions, the probability current, and Ehrenfest’s theorem linking quantum expectation values to classical quantities. ([MIT OpenCourseWare][1], [Wikipedia][2])
+These weeks I focused on the Schrödinger equation and the wave function $\psi$. We studied time-dependent and time-independent forms, probability interpretation (Born rule), basic properties of $\psi$ (normalization, continuity, single-valuedness), free-particle plane-wave solutions, the probability current, and Ehrenfest’s theorem linking quantum expectation values to classical quantities. ([MIT OpenCourseWare][1], [Wikipedia][2])
 
 ---
 
