@@ -1,4 +1,4 @@
-##Chapter 3 — Schrödinger Equation (Questions & Answers)
+### Chapter 3 — Schrödinger Equation (Questions & Answers)
 
 *Week 4,5 → Week 6 learning journal — questions I asked while studying Chapter 3 and the answers I found.*
 
