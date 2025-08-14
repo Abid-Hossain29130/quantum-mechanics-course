@@ -9,5 +9,5 @@ Between Week_03 → Week_06, I spent three weeks thoroughly researching and reso
 
 ### What I produced:
 - **Concept Q&A**: detailed answers and clarifications from my Chapter 3 questions — see../Week_05
-- 
+ 
 Now uploading these as Week_06 artifacts to reflect the depth and rigor of that research period.
