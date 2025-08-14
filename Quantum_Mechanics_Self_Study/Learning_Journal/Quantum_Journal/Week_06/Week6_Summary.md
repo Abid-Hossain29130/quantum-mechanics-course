@@ -128,22 +128,7 @@ Separation assumes $\Psi(\mathbf r,t)=\phi(\mathbf r)T(t)$. Substitute into TDSE
 
 ---
 
-### C. **Probability current density — how to calculate?**
-
-**Answer (concise):**
-The probability density is $\rho = |\psi|^2$. The probability current density (in absence of electromagnetic potentials) is
-
-$$
-\mathbf j = -\frac{i\hbar}{2m}\left(\psi^* \nabla\psi - \psi\nabla\psi^*\right) = \frac{\hbar}{m}\operatorname{Im}(\psi^* \nabla\psi).
-$$
-
-It satisfies the continuity equation $\partial_t \rho + \nabla\cdot\mathbf j = 0$, expressing conservation of total probability. For 1D, 
-$j = \dfrac{\hbar}{m}\operatorname{Im}(\psi^*\partial_x\psi)$ 
-([Wikipedia][7])
-
----
-
-### D. **Ehrenfest’s theorem — short, exam-friendly derivation and the “final” results**
+### C. **Ehrenfest’s theorem — short, exam-friendly derivation and the “final” results**
 
 **Goal:** show
 
