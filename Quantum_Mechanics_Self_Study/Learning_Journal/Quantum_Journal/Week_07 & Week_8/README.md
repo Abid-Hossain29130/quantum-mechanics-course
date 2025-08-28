@@ -1,5 +1,3 @@
-# Consolidated Summary: Principles of Superposition & 1D Problems
-
 Over the past two weeks, I completed an in-depth study of two foundational topics in quantum mechanics. This work bridges the theoretical framework of wave functions and Fourier analysis (Chapter 4) with practical applications to common quantum systems (Chapter 5).
 
 ---
