@@ -16,4 +16,4 @@ Covered topics include:
 - Hydrogen atom: wave functions, energy levels, and degeneracy  
 - Probability current density  
 - Solved exercise problems and university-style questions
----
+----
