@@ -1,6 +1,6 @@
 # Week 09 — Chapter 6: Spherically Symmetric Systems & Potentials
 
-**Dates worked:**  Aug 28, 2025 - Sep 9, 2025  [28/08/2025-09/08/2025]
+**Dates worked:** June–July 2025  
 **Core focus:** Completed Chapter 6 — covering separation of variables in spherical coordinates, radial and angular wavefunctions, hydrogenic systems, energy degeneracy, and harmonic oscillators.
 
 ---
@@ -18,66 +18,62 @@ Covered topics include:
 - Probability current density  
 - Solved exercise problems and university-style questions
 
+---
+
 ## 2. Deep-Dive Questions & Answers
 
-### 2.1. Separation & Centrifugal Barrier
+### Separation & Centrifugal Barrier  
 **Question:** In the separation of the Schrödinger equation for a spherically symmetric potential, why is the angular part universal while the radial part is potential-specific? How does the centrifugal term physically prevent a non-zero angular momentum particle from collapsing into the origin?  
 **Answer:**  
-The angular equation arises purely from the symmetry of space (spherical coordinates), so it’s independent of the exact potential — it always yields spherical harmonics. The radial part, however, includes the centrifugal term \(\frac{\ell(\ell+1)\hbar^2}{2mr^2}\), which acts as an effective repulsive potential near \(r \to 0\). This barrier prevents particles with non-zero angular momentum from reaching the origin, as going too close would significantly raise their energy.:contentReference[oaicite:0]{index=0}
+The angular equation arises purely from symmetry and always leads to spherical harmonics \(Y_{\ell m}\). The radial part includes a centrifugal term \(\frac{\ell(\ell+1)\hbar^2}{2mr^2}\), which acts like a repulsive potential that increases sharply as \(r \to 0\), preventing a particle with \(\ell > 0\) from reaching the origin. ([source]([en.wikipedia.org](https://en.wikipedia.org/wiki/Particle_in_a_spherically_symmetric_potential?utm_source=chatgpt.com)))
 
 ---
 
-### 2.2. Asymptotic Behavior of Radial Solutions
-**Question:** Why must we analyze the wavefunction’s asymptotic behavior as \(r \to 0\) and \(r \to \infty\) before solving hydrogen’s radial equation?  
+### Asymptotic Behavior of Radial Solutions  
+**Question:** Why must we analyze the wavefunction’s asymptotic behavior as \(r \to 0\) and \(r \to \infty\) before solving the hydrogenic radial equation?  
 **Answer:**  
-We assume \(R(r) = e^{-\kappa r} F(r)\) to ensure physical acceptability: as \(r \to \infty\), the exponential makes the wavefunction vanish (bound-state condition), while near \(r \to 0\) we require \(R(r)\) to remain finite and regular. Asymptotic analysis ensures \(F(r)\) is well-behaved and prevents divergent behavior.:contentReference[oaicite:1]{index=1}
+At \(r \to \infty\), we require the solution to vanish for normalizability, yielding \(R(r) \sim e^{-\kappa r}\). At \(r \to 0\), the solution must remain finite, so the power series \(F(r)\) must not diverge. This ensures a physically acceptable, normalizable wavefunction. ([source]([galileo.phys.virginia.edu](https://galileo.phys.virginia.edu/classes/751.mf1i.fall02/HydrogenAtom.htm?utm_source=chatgpt.com)))
 
 ---
 
-### 2.3. Principal Quantum Number & Energy Quantization
-**Question:** Why does the power series solution for the hydrogen radial equation need to terminate, and how does that lead to the principal quantum number \(n\)?  
+### Quantization & the Principal Quantum Number  
+**Question:** Why does the series solution terminate, leading to the principal quantum number \(n\)?  
 **Answer:**  
-If the series doesn’t terminate, the wavefunction diverges at large \(r\), making it non-normalizable. Allowing only polynomial solutions (i.e., terminating series) ensures square-integrability. This requirement quantizes the allowed energies, introducing the principal quantum number \(n\), which directly yields the discrete hydrogen energy levels.:contentReference[oaicite:2]{index=2}
+For convergence and normalizability, the series must terminate—only finite polynomials give acceptable bound-state wavefunctions. That termination condition imposes discrete energy levels, introducing \(n\), the principal quantum number. ([source]([galileo.phys.virginia.edu](https://galileo.phys.virginia.edu/classes/751.mf1i.fall02/HydrogenAtom.htm?utm_source=chatgpt.com)))
 
 ---
 
-### 2.4. Expectation vs Most Probable Radius
-**Question:** Why is the average radius \(\langle r \rangle = 1.5a_0\) different from the most probable radius \(a_0\) in hydrogen?  
+### Expectation vs Most Probable Radius  
+**Question:** Why is \(\langle r \rangle = 1.5\,a_0\) different from the most probable radius \(a_0\)?  
 **Answer:**  
-\(\langle r \rangle\) is an average weighted by probability density, reflecting contributions from all radii — including the tail of the distribution. The most probable radius arises from the peak of the radial density \(r^2|R(r)|^2\). Its difference demonstrates the asymmetry and spread of the probability distribution — a key quantum mechanical insight about measurement outcomes.
+\(\langle r \rangle\) is a weighted average over the full probability distribution, while the most probable radius comes from the peak of the radial density \(r^2|R(r)|^2\). The difference reflects the asymmetry of the distribution and is a key insight into quantum behavior.
 
 ---
 
-### 2.5. Degeneracy in Hydrogen
-**Question:** Why do multiple \(\ell\), \(m\) combinations correspond to the same energy level in the hydrogen atom?  
+### Degeneracy in Hydrogen  
+**Question:** Why do multiple \(\ell\) and \(m\) states share the same energy in hydrogen?  
 **Answer:**  
-The hydrogen atom’s potential depends only on \(r\) (not angles), giving it full spherical symmetry. Energy eigenvalues depend only on \(n\), not on \(\ell\) or \(m\). This symmetry generates degeneracy: all orbitals with the same \(n\) share energy.:contentReference[oaicite:3]{index=3}
+Hydrogen’s potential is spherically symmetric, so energy depends only on \(n\). Different \((\ell, m)\) combinations correspond to the same \(n\), resulting in degeneracy. ([source]([en.wikipedia.org](https://en.wikipedia.org/wiki/Hydrogen_atom?utm_source=chatgpt.com)))
 
 ---
 
-### 2.6. Conceptual & Foundations
+## 3. Conceptual Foundations
 
-- **Why is separation only possible for spherically symmetric potentials?**  
-  Because only then are the angular and radial dependencies independent, letting us solve separately via symmetry.
+- Separation works only for central (\(V(r)\)) potentials due to their symmetry.  
+- Spherical harmonics are universal shapes; radial differences arise from different potentials.  
+- The term \(\ell(\ell + 1)\) comes from the eigenvalues of angular momentum in QM: \(L^2Y = \hbar^2 \ell(\ell+1)Y\).  
+- Quantization of \(\ell\) and \(m\) stems from boundary conditions (single-valuedness, orthogonality).  
+- Angular nodes = \(\ell\), radial nodes = \(n - \ell - 1\).  
+- Orbital shapes (s, p, d) arise from \(\ell=0,1,2\) spherical harmonics.  
+- The full wavefunction is \(\psi_{n\ell m}(r,\theta,\phi) = R_{n\ell}(r)Y_{\ell m}(\theta,\phi)\).
 
-- **Does angular independence mean orbital shapes are universal?**  
-  Yes — spherical harmonics are universal for any central potential; only the radial part changes based on the specific \(V(r)\).
+---
 
-- **Physical significance of \( \ell(\ell + 1) \):**  
-  It represents the eigenvalue of the squared angular momentum operator \(L^2\), showing how angular momentum quantizes in quantum mechanics.
+## 4. Reflection
 
-- **Quantization of \(m\) and \(\ell\):**  
-  Requires the angular solution functions to be single-valued and continuous over \(\theta\), \(\phi\), leading to integer quantization of \(\ell\) and \(m\).
+Completing Chapter 6 sharpened my understanding of quantum symmetry, orbital structure, math methods, and their physical meaning. I’m now ready to integrate computational visualizations into my portfolio — reinforcing both theory and presentation.
 
-- **Exam-essential insights from spherical harmonics derivation:**  
-  The central results: \( L^2 Y_{\ell m} = \hbar^2\ell(\ell+1)Y_{\ell m} \) and behavior of angular wavefunctions — focus on these, skip longer recursion derivations unless asked.
+---
 
-- **Predicting angular and radial nodes uniquely:**  
-  Number of angular nodes = \(\ell\); number of radial nodes = \(n - \ell - 1\).
+**Next step?** Would you like help drafting the Python notebook or the PDF summary?
 
-- **Connection to orbital shapes:**  
-  Spherical harmonics directly describe orbital shapes: \(\ell=0\) gives spherically symmetric s orbitals; \(\ell=1\) gives dumbbell-shaped p orbitals; \(\ell=2\) gives d-orbitals' clover shapes.
-
-- **What next after spherical harmonics?**  
-  You proceed to the radial equation. Combine both solutions (\(R(r)\) and \(Y_{\ell m}\)) to form full hydrogenic wavefunctions \(\psi_{n\ell m}(r, \theta, \phi)\).
---- 
