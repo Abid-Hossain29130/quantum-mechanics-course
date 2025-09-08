@@ -25,7 +25,9 @@ Covered topics include:
 ### Separation & Centrifugal Barrier  
 **Question:** In the separation of the Schrödinger equation for a spherically symmetric potential, why is the angular part universal while the radial part is potential-specific? How does the centrifugal term physically prevent a non-zero angular momentum particle from collapsing into the origin?  
 **Answer:**  
-The angular equation arises purely from symmetry and always leads to spherical harmonics \(Y_{\ell m}\). The radial part includes a centrifugal term \(\frac{\ell(\ell+1)\hbar^2}{2mr^2}\), which acts like a repulsive potential that increases sharply as \(r \to 0\), preventing a particle with \(\ell > 0\) from reaching the origin. ([source]([en.wikipedia.org](https://en.wikipedia.org/wiki/Particle_in_a_spherically_symmetric_potential?utm_source=chatgpt.com)))
+The angular equation arises purely from symmetry and always leads to spherical harmonics \(Y_{\ell m}\). The radial part includes a centrifugal term
+\(\frac{\ell(\ell+1)\hbar^2}{2mr^2}\), 
+which acts like a repulsive potential that increases sharply as \(r \to 0\), preventing a particle with \(\ell > 0\) from reaching the origin. ([source]([en.wikipedia.org](https://en.wikipedia.org/wiki/Particle_in_a_spherically_symmetric_potential?utm_source=chatgpt.com)))
 
 ---
 
@@ -72,8 +74,3 @@ Hydrogen’s potential is spherically symmetric, so energy depends only on \(n\)
 ## 4. Reflection
 
 Completing Chapter 6 sharpened my understanding of quantum symmetry, orbital structure, math methods, and their physical meaning. I’m now ready to integrate computational visualizations into my portfolio — reinforcing both theory and presentation.
-
----
-
-**Next step?** Would you like help drafting the Python notebook or the PDF summary?
-
