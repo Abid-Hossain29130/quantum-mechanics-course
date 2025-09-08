@@ -80,3 +80,4 @@ The hydrogen atom’s potential depends only on \(r\) (not angles), giving it fu
 
 - **What next after spherical harmonics?**  
   You proceed to the radial equation. Combine both solutions (\(R(r)\) and \(Y_{\ell m}\)) to form full hydrogenic wavefunctions \(\psi_{n\ell m}(r, \theta, \phi)\).
+---
